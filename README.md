@@ -12,7 +12,6 @@ Chat application using modern technologies and real time features
 - Adding users to one's friendlist
 
 ### Technologies
-
 - Typescript
 - Socket.io
 - Material UI
