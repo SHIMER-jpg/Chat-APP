@@ -16,3 +16,4 @@ Chat application using modern technologies and real time features
 - React (if possible with native)
 - Redux
 - MongoDB (mongo atlas)
+- Express
