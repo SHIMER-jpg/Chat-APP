@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+/* Sets up the environment variables from your .env file*/
+require("dotenv").config();
+
+/**
+ * Module dependencies.
+ */
+
+var app = require("../app").app;
+var server = require("../app").server;
+const jwt = require("jsonwebtoken");
+const cookie = require("cookie");
+const User = require("../models/User");
+const onlineUsers = require("../onlineUsers");
+
+// var port = normalizePort(process.env.PORT || '3001');
+var port = "3001";
+app.set("port", port);
+server.listen(port);
