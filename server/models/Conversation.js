@@ -8,3 +8,8 @@ const conversationSchema = mongoose.schema({
     { type: mongoose.Schema.Types.ObjectId, ref: "message", default: [] },
   ],
 });
+
+module.exports = Conversation = mongoose.model(
+  "conversation",
+  conversationSchema
+);
